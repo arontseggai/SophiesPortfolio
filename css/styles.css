@@ -1,0 +1,72 @@
+/*  OVERRIDES FOR MATERIALIZE  */
+a:hover {
+	text-decoration:underline!important;
+	color:#000!important;
+	background-color:transparent!important;
+}
+
+nav {
+	box-shadow:none!important;
+	height:40px;
+	line-height:40px;
+	background-color: #ffff00;
+}
+
+ a {
+	color:#000!important;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+
+.nav-wrapper {
+	display:flex;
+	justify-content:center;
+}
+
+.dropdown-content {
+	top:auto!important;
+	background-color:#ee6e73!important;
+	box-shadow:none!important;
+}
+
+.dropdown-content a {
+	color:#000!important;
+}
+
+#homepage-content {
+}
+
+#homepage-content h5 {
+	text-align:center;
+}
+
+.card { box-shadow: none !important; }
+
+/* ---------------- STYLING SECTIONS ------------------- */
+
+/* NAVBAR SECTION */
+
+#navbar h3 { text-align: center; color: black; margin-bottom: 10px; }
+#navbar nav { position: fixed; z-index: 998; }
+
+#navbar .primary-nav { display: flex; justify-content: center; }
+#navbar .secondary-nav { }
+#navbar .secondary-nav li:nth-child(n+6) { float: right; }
+#navbar nav ul a { letter-spacing: 1px; font-weight: 500; }
+
+
+/* CONTENT-FEED SECTION */
+
+#content-feed .wrapper { padding: 180px 0; }
+#content-feed .card .content { text-align: center; padding: 5px; }
+
+/* FOOTER */
+
+#footer { }
+#footer footer { background: #ffff00; position: fixed; bottom: 0; z-index: 997; width: 100%; }
+#footer footer ul { display: flex; justify-content: center; margin: 5px; }
+#footer footer ul li { display: inline; padding: 0px 10px; }
+
+
+
+
