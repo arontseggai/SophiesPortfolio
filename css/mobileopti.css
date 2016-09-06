@@ -1,0 +1,32 @@
+
+
+
+/* ---------------- STYLING SECTIONS ------------------- */
+
+/* SMALL SCREENS */
+
+
+@media only screen and (max-width: 600px) {
+		nav ul.secondary-nav li {
+			background-color: #fff;
+		}
+		
+		#navbar .secondary-nav {
+			display: flex;
+			flex-direction: column;
+			background-color: #fff; 
+			margin: 20px;
+			margin-top: 100px;
+			margin-left: 50px;
+			margin-right: 50px;
+			margin-bottom: 20px;
+			padding: 35px 10px;
+		}
+		
+		#navbar nav ul a { font-size: 20px; }
+}
+
+@media only screen and (min-width: 992px) {
+
+		.wrapper { width: 1560px; }
+}
